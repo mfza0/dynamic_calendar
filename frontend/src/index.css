@@ -1,0 +1,132 @@
+/* index.css or styles.css */
+
+/* Basic reset */
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0;
+  color: #333;
+}
+
+.App {
+  padding: 20px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+/* Layout and Container Styles */
+.calendar-container {
+  display: flex;
+  gap: 20px; 
+}
+
+
+
+
+.left-panel {
+  flex: 1;
+  background-color: #ffffff;
+  padding: 1rem;
+  border-radius: 0.4rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  
+}
+
+.right-panel {
+  flex: 2;
+  background-color: #ffffff;
+  padding: 1rem;
+  border-radius: 0.4rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  
+}
+
+/* Buttons */
+button {
+  transition: background-color 0.3s ease;
+  padding: 0.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  
+}
+
+button:hover {
+  background-color: #888c90;
+}
+
+.left-panel button {
+  margin-bottom: 0.4rem;
+  background-color: #72767a;
+  color: white;
+}
+
+/* Accordion Styles */
+.accordion-item {
+  border: none;
+}
+
+.accordion-header {
+  background-color: #0b1824;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.accordion-body {
+  padding: 10px;
+  background-color: #f4f4f4;
+}
+
+.todo-list {
+  margin-top: 20px;
+}
+
+.event-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e9ecef;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.event-item strong {
+  margin-right: 10px;
+}
+
+.event-item button {
+  margin-left: 10px;
+}
+
+/* FullCalendar Styles */
+.fc-toolbar-title {
+  font-size: 20px;
+  color: #333;
+}
+
+.fc-daygrid-day {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+}
+
+.fc-day-today {
+  background-color: #a9adb1 !important;
+  color: white;
+}
+
+.fc-event {
+  background-color: #28a745;
+  border: none;
+  font-size: 14px;
+}
+
