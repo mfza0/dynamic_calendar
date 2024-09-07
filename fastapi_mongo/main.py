@@ -20,7 +20,7 @@ app.add_middleware(
 # Replace with your Atlas connection string
 from pymongo.mongo_client import MongoClient
 
-uri = "mongodb+srv://mufeeza:hey12345@cluster0.3tkla0b.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+uri = "mongodb+srv://<username>:<password>@cluster0.3tkla0b.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
 # Create a new client and connect to the server
 client = MongoClient(uri)
